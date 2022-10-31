@@ -1,0 +1,25 @@
+.popup {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -150%);
+    transition: opacity 300ms ease;
+}
+
+.value {
+    background-color: #fcfcfc;
+    border-radius: 3px;
+    color: #012030;
+    min-width: 30px;
+    padding: 9px;
+    text-align: center;
+    user-select: none;
+}
+
+.triangle {
+    background-color: #fcfcfc;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+    height: 9px;
+    margin: 0 auto;
+    width: 15px;
+}

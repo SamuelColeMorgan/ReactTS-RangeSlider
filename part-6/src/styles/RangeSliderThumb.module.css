@@ -1,0 +1,10 @@
+.thumb {
+    background-color: #fcfcfc;
+    border: 1px solid #0a0a0a;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    top: calc(-16px + 9px / 2);
+    transform: translateX(-50%);
+    width: 30px;
+}
